@@ -1,3 +1,12 @@
+## 2.6.0 - Jan 28, 2023
+
+*   Update dependencies: `sqflite: ^2.2.4`. Because `sqflite` does not follow semantic versioning, this is a breaking change.
+
+## 2.5.1 - Jan 25, 2023
+
+*   Update dependencies
+    * `sqflite: ^2.2.3` (implements `Batch.length`).
+
 ## 2.5.0 - Nov 2, 2022
 
 *   Update dependencies

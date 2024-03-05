@@ -182,4 +182,7 @@ class BriteBatch implements IBriteBatch {
 
     return result;
   }
+
+  @override
+  int get length => _delegate.length;
 }
