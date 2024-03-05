@@ -13,12 +13,6 @@ class BriteBatch implements IBriteBatch {
   /// Construct a [BriteBatch] with a [AbstractBriteDatabaseExecutor]
   /// and backed by a [sqlite_api.Batch]
   BriteBatch(this._executor, this._delegate);
-  
-  /// Just a quick fix for https://github.com/hoc081098/sqlbrite/issues/44
-  @override
-  int get length {
-    return 0;
-  }
 
   @override
   Future<List> commit({
